@@ -7,7 +7,7 @@ This project implements an Inventory Reconciliation & Sales Analysis Engine in P
 The system processes inventory and sales transaction data, applies business rules,
 reconciles stock levels, detects stock issues, and generates analytical reports.
 
-Developed as part of a Software/Data Engineering Internship assignment.
+
 
 
 
