@@ -122,8 +122,8 @@ def write_category_summary(results, file_path):
 
 
 def write_data_quality_report(quality_report, file_path):
-    """
-    Writes data quality metrics.
-    """
+    
+    ##Writes data quality metrics.
+
     with open(file_path, "w") as f:
         json.dump(quality_report, f, indent=4)

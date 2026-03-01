@@ -10,7 +10,7 @@ from src.reporter import (
     write_data_quality_report,
 )
 
-# Ensure logs folder exists
+## Ensure logs folder exists
 os.makedirs("logs", exist_ok=True)
 
 logging.basicConfig(

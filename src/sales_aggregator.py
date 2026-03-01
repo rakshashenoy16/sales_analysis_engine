@@ -45,5 +45,5 @@ def aggregate_sales(sales_data, inventory):
         processed_transactions += 1
         quality_report["valid_transactions"] += 1
 
-    # IMPORTANT: Now returning quality_report as 3rd value
+    # Now returning quality_report as 3rd value
     return aggregated, processed_transactions, quality_report

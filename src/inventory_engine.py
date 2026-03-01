@@ -10,7 +10,7 @@ def reconcile_inventory(inventory, aggregated_sales):
         if final_stock < 0:
             final_stock = 0
 
-        # Stock Status Logic (your original style kept)
+        ## Stock Status Logic (your original style kept)
         if final_stock == 0:
             status = "OUT_OF_STOCK"
         elif 1 <= final_stock <= 10:

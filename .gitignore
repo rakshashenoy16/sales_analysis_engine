@@ -25,6 +25,8 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Output files (optional if you don't want them committed)
+# Output files (Generated Reports)
 inventory_reconciliation.csv
 sales_summary.json
+category_summary.csv
+data_quality_report.json
